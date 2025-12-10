@@ -1,4 +1,4 @@
-#!/Bin/bash
+#!/bin/bash
 cp ports.conf /etc/apache2; systemctl start apache2; systemctl enable apache2; 
 \cp filebeat.yml /etc/filebeat; systemctl restart filebeat; 
 \cp mysqld.cnf /etc/mysql/mysql.d; service mysql restart
